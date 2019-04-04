@@ -7,7 +7,7 @@
                 <v-toolbar-title>Regestration form</v-toolbar-title>
               </v-toolbar>
               <v-card-text>
-                <v-form ref="form" v-model="valid" lazy-validation>
+                <v-form ref="form" v-model="valid" validation>
                   <v-text-field
                     prepend-icon="person"
                     name="email"
